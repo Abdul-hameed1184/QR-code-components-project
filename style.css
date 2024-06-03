@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    min-width: 100vw;
+    font-family: "Inter", sans-serif;
+}
+:root{
+    --secondary-color: #1F314F;
+    --body-color:  #7D889E;
+    --primary-color: #D5E1EF;
+}
+
+.card{
+    background-color: white;
+    border-radius: 1.5rem;
+    padding: 2vh;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+img{
+    box-sizing: border-box;
+    border-radius: 1rem;
+    height: 35vh;
+}
+.card-title{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bolder;
+    color: var(--secondary-color);
+}
+.card-body{
+    text-align: center;
+    font-size: 15px;
+    color: var(--primary-color);
+}
+
+
+
